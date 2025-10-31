@@ -389,6 +389,11 @@ int main()
     // === Звичайний режим програми ===
     mt19937 gen(static_cast<unsigned int>(time(0)));
 
+    // double holdVolume = rand_double(gen, 5000.0, 10000.0); 
+    // double windowW = rand_double(gen, 10.0, 30.0); 
+    // double windowH = rand_double(gen, 10.0, 30.0); 
+    // int numBars = 15; // Кількість зливків для обробки
+
     double holdVolume, windowW, windowH;
     int numBars;
 
